@@ -1,0 +1,443 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+.main {
+    width: 1200px;
+    height: 100vh;
+    margin: 0 auto;
+    background-image: url(assets/background-image.png);
+    background-size: cover;
+    
+}
+
+nav {
+    height: 80px;
+    max-width: 1200px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+
+}
+
+.nav1 {
+    height: 50px;
+    width: 120px;
+}
+
+.nav1 img {
+    height: 50px;
+    width: 120px;
+    align-items: center;
+
+
+}
+
+.nav2 ul a {
+    text-decoration: none;
+}
+
+.nav2 {
+    text-decoration: none;
+    height: 60px;
+    width: 750px;
+    align-items: center;
+}
+
+.nav2 ul {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    align-items: center;
+    height: 60px;
+    width: 750px;
+
+
+}
+
+.nav2 ul li {
+    font-size: 15px;
+    color: rgb(10, 84, 139);
+    list-style: none;
+    font-weight: 500;
+    padding: 5px;
+    height: 40px;
+    width: 120px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+.nav2 ul li:hover{
+    border: 1px solid rgb(10, 84, 139);
+    border-radius: 40px;
+    transition: all 1ms ease-in-out
+}
+
+.dot3 {
+    font-size: 25px;
+    color: rgb(10, 84, 139);
+
+}
+
+.menubar {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+.menubar1 {
+    font-size: 25px;
+    color: rgb(10, 84, 139);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.video-div {
+    height: 680px;
+    width: 1200px;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.video {
+    width: 1200px;
+
+}
+
+.middle-logo {
+    height: 100px;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 70px auto;
+
+}
+
+.middle-logo-img1 {
+    height: 80px;
+    width: 90px;
+}
+
+.middle-logo-img {
+    height: 80px;
+    width: 90px;
+}
+
+.middle-logo-p {
+    font-size: 20px;
+    font-weight: 200;
+    text-align: center;
+    margin-left: -105px;
+    text-transform: uppercase;
+    color: rgb(10, 84, 139);
+}
+
+.middle-logo-p8 {
+    font-size: 20px;
+    font-weight: 200;
+    text-align: center;
+    margin-left: -105px;
+    text-transform: uppercase;
+    color: rgb(10, 84, 139);
+    margin-top: 20px;
+}
+
+.ourstory-div {
+    height: 600px;
+    width: 1200px;
+    margin: 100px auto;
+    background-image: url(assets/background-image.png);
+    background-size: cover;
+}
+
+.ourstory-div1 {
+    height: 350px;
+    width: 400px;
+}
+
+.ourstory-div2 {
+    height: 350px;
+    width: 500px;
+}
+
+.ourstory-div-background {
+    margin: 50px;
+    display: flex;
+    margin-left: 140px;
+
+}
+
+.ourstory-div1-p {
+    font-size: 15px;
+    margin: 50px;
+    font-weight: 500;
+    word-spacing: 5px;
+}
+
+.nurpur-product-img {
+    height: 400px;
+    width: 500px;
+    margin-top: 20px;
+}
+
+.grass-img {
+    height: 120px;
+    width: 1200px;
+    margin: 0px auto;
+}
+
+.middle-logoo {
+    height: 100px;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 70px auto;
+    background-image: url(assets/background-image.png);
+    background-size: cover;
+}
+
+.middle-logo-img {
+    height: 80px;
+    width: 90px;
+}
+
+.middle-logo-pp {
+    font-size: 20px;
+    font-weight: 200;
+    text-align: center;
+    margin-left: -120px;
+    text-transform: uppercase;
+    color: rgb(10, 84, 139);
+    margin-top: 20px;
+}
+
+.middle-logo-ppp {
+    font-size: 20px;
+    font-weight: 200;
+    text-align: center;
+    margin-left: -130px;
+    text-transform: uppercase;
+    color: rgb(10, 84, 139);
+}
+
+.middle-logo-p3 {
+    font-size: 20px;
+    font-weight: 200;
+    text-align: center;
+    margin-left: -130px;
+    text-transform: uppercase;
+    color: rgb(10, 84, 139);
+    margin-top: 20px;
+}
+
+.products {
+    height: 200px;
+    width: 1200px;
+    margin: 0 auto;
+    background-image: url(assets/background-image.png);
+    opacity: 20px;
+    background-size: cover;
+}
+
+.milk-wave-pattern {
+    height: 400px;
+    width: 300px;
+    margin-left: 1050px;
+    z-index: -999;
+    margin-top: -500px;
+    rotate: 20deg;
+    display: none;
+}
+
+.products-cart {
+    height: 1500px;
+    width: 1200px;
+    margin: 100px auto;
+    gap: 100px;
+
+
+}
+
+.products-cart2 {
+    height: 1000px;
+    width: 1200px;
+    margin: 100px auto;
+}
+
+.cards-main {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 20px;
+    flex-wrap: wrap;
+    height: 1500px;
+    width: 1200px;
+    gap: 50px;
+    background-color: rgba(249, 249, 249, 0.6);
+}
+
+.cards-main2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 20px;
+    flex-wrap: wrap;
+    height: 1000px;
+    width: 1200px;
+    gap: 50px;
+    background-image: url(assets/background-image.png);
+    background-size: cover;
+}
+
+.card {
+    height: 450px;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card:hover {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.cardstopp {
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-left: 60px;
+}
+
+.cardstop {
+    margin-top: 20px;
+    height: 200px;
+    width: 100px;
+}
+
+.cards2 {
+    height: 200px;
+    width: 250px;
+    margin-top: 40px;
+
+}
+
+.title-name {
+    color: rgb(10, 84, 139);
+    margin-top: 20px;
+    text-align: center;
+}
+
+.card-textt {
+    font-weight: 100;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
+    color: gray;
+}
+
+.hrline {
+    height: 200px;
+    color: rgb(10, 84, 139);
+    border: 1px solid rgb(10, 84, 139);
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+
+}
+
+.cards8 {
+    height: 600px;
+    width: 200px;
+    padding-top: 50px;
+}
+
+.fullrecipe {
+    font-size: 14px;
+    border: 1px solid rgb(70, 159, 146);
+    color: rgb(70, 159, 146);
+    border-radius: 20px;
+    text-align: center;
+    height: 30px;
+    width: 120px;
+    margin-left: 60px;
+    margin-top: 20px;
+    background-image: url(assets/background-image.png);
+    background-size: cover;
+}
+
+.img-cart {
+    margin-left: 40px;
+}
+
+.card {
+    height: 450px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.middle-logo-p4 {
+    font-size: 20px;
+    font-weight: 200;
+    text-align: center;
+    margin-left: -75px;
+    text-transform: uppercase;
+    color: rgb(10, 84, 139);
+    margin-top: 20px;
+}
+
+.imagesection {
+    height: 500px;
+    width: 1200px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.img1 {
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.imagesection1 {
+    height: 230px;
+    width: 300px;
+    border: none;
+    border-radius: 20px;
+
+}
+
+.img-p {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(10, 84, 139);
+    align-items: center;
+    text-decoration: none;
+}
