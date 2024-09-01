@@ -7,8 +7,8 @@
 }
 
 .main {
-    width: 1200px;
-    height: 100vh;
+   width: 1200px;
+    height: 5000px;
     margin: 0 auto;
     background-image: url(assets/background-image.png);
     background-size: cover;
@@ -22,19 +22,21 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 0 auto;
+    /* margin: 0 auto; */
 
 }
 
 .nav1 {
     height: 50px;
     width: 120px;
+    border: 1px solid black;
 }
 
-.nav1 img {
+.logo-img{
     height: 50px;
     width: 120px;
     align-items: center;
+    border: 1px solid black;
 
 
 }
@@ -108,13 +110,13 @@ nav {
 
 .video-div {
     height: 680px;
-    width: 1200px;
+   max-width:  1200px;
     background-size: cover;
     margin: 0 auto;
 }
 
 .video {
-    width: 1200px;
+  max-width:  1200px;
 
 }
 
@@ -126,17 +128,22 @@ nav {
     align-items: center;
     text-align: center;
     margin: 70px auto;
+    border:1px solid black ;
 
 }
 
 .middle-logo-img1 {
     height: 80px;
     width: 90px;
+    border:1px solid black ;
+
 }
 
 .middle-logo-img {
     height: 80px;
     width: 90px;
+    border:1px solid black ;
+
 }
 
 .middle-logo-p {
@@ -159,41 +166,63 @@ nav {
 }
 
 .ourstory-div {
-    height: 600px;
-    width: 1200px;
-    margin: 100px auto;
+    height: 800px;
+    max-width: 1200px;
+    /* margin: 100px auto; */
     background-image: url(assets/background-image.png);
     background-size: cover;
+    border:1px solid black ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+
 }
 
 .ourstory-div1 {
-    height: 350px;
-    width: 400px;
+    height:600px;
+    width: 600px;
+    border:1px solid black ;
+    text-align: center;
+
 }
 
 .ourstory-div2 {
-    height: 350px;
-    width: 500px;
+    height: 600px;
+    width: 600px;
+    border:1px solid black ;
+    
+
 }
 
 .ourstory-div-background {
-    margin: 50px;
+    /* margin: 50px; */
     display: flex;
-    margin-left: 140px;
+    /* margin-left: px; */
+    justify-content: center;
+    align-items: center;
+    border:1px solid black ;
+    height: 700px;
+
+    width: 100%;
 
 }
 
-.ourstory-div1-p {
+.ourstory-div1 p {
     font-size: 15px;
-    margin: 50px;
+    margin: 80px 80px;
     font-weight: 500;
     word-spacing: 5px;
+    text-align: center;
 }
 
 .nurpur-product-img {
-    height: 400px;
-    width: 500px;
+    height: 500px;
+    width: 600px;
     margin-top: 20px;
+    border:1px solid black ;
+
 }
 
 .grass-img {
@@ -249,7 +278,7 @@ nav {
 }
 
 .products {
-    height: 200px;
+    height: 1800px;
     width: 1200px;
     margin: 0 auto;
     background-image: url(assets/background-image.png);
@@ -300,7 +329,7 @@ nav {
     align-items: center;
     padding-top: 20px;
     flex-wrap: wrap;
-    height: 1000px;
+    height: 800px;
     width: 1200px;
     gap: 50px;
     background-image: url(assets/background-image.png);
@@ -364,6 +393,9 @@ nav {
     flex-direction: column;
     margin-top: 50px;
 
+}
+.hiddenhr{
+    display: block;
 }
 
 .cards8 {

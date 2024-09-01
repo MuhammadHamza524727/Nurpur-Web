@@ -1,4 +1,10 @@
-@media screen and (max-width:991px) {
+@media screen and (max-width:992px) {
+    nav{
+        justify-content: space-between;
+        margin-left: 100px;
+        margin-right: 100px;
+       
+    }
     .nav2 {
         display: none;
 
@@ -11,14 +17,45 @@
     .menubar {
         display: block;
         margin-top: 20px;
-        margin-right: -250px;
+        /* margin-right: -420px; */
+        
+        
 
 
     }
 
     .nav1 {
-        margin-left: -200px;
+        /* margin-left: -200px; */
     }
+    .ourstory-div{
+        
+    }
+    .cards-main {
+        gap: 150px;
+    }
+    .hiddenhr{
+        display: none;
+    }
+    .cards-main {
+        height:1800px ;
+    }
+    .cards-main2 {
+        height: 700px;
+        gap: 120px;
+    }
+    .carts992{
+        display: none;
+    }
+    .products-cart2 {
+        height: 600px;
+        margin-top: 400px;
+    }
+.middle-logoo{
+    margin-top: 400px;
+}
+
+
+ 
 }
 
 @media screen and (max-width:768px) {
@@ -131,4 +168,105 @@
         display: none;
     }
 
+}
+@media screen and (max-width:320px) {
+
+    .menubar {
+        /* display: block; */
+        margin-top: 20px;
+        margin-right: 20px;
+    }
+    
+    .nav1 {
+        margin-left: 20px;
+        
+        
+    }
+
+    nav {
+        justify-content: space-evenly;
+        gap: 500px;
+        
+        
+      
+
+
+    }
+    .middle-logo{
+        height: 150px;
+        
+    }
+    .middle-logo-img{
+        height: 150px;
+        width: 120px;
+    }
+    .logo-img{
+        width: 100px;
+    }
+    .middle-logo-p8 {
+        margin-left: -128px;
+        font-size: 23px;
+    }
+    .ourstory-div{
+        height: 1500px;
+        margin-top: 200px;
+    }
+    .ourstory-div-background{
+        flex-direction: column-reverse;
+        height: 1500px;
+    }
+    .ourstory-div1 {
+        height: 900px;
+        width: 1200px;
+        
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        padding: 100px;
+           margin-top: 100px;
+    
+    }
+    .ourstory-div1 p{
+font-size: 30px;
+    }
+    
+    .ourstory-div2 {
+        height: 1200px;
+        width:1200px;
+        justify-content: center;
+        display: flex;
+
+       
+    
+    }
+    .nurpur-product-img {
+        height: 600px;
+        width: 900px;
+
+    }
+
+    .middle-logo-pp{
+        margin-left: -150px;
+        font-size: 24px;
+    }
+    .card {
+        height: 480px;
+        width: 900px;
+    }
+    .cards-main{
+        gap: 200px;
+    } 
+    .card-textt{
+        font-size: 18px;
+    }
+
+
+    .cards8 {
+        width: 500px;
+    }
+
+   
+    
+   
 }
